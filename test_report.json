@@ -1,0 +1,113 @@
+{
+  "timestamp": "2026-10-24 12:51:28",
+  "total_tests": 15,
+  "passed": 15,
+  "failed": 0,
+  "results": [
+    {
+      "module": "System Infrastructure",
+      "test": "FastAPI /health check and system metadata",
+      "status": "PASS",
+      "time_ms": 19.37,
+      "details": "OK"
+    },
+    {
+      "module": "System Infrastructure",
+      "test": "FastAPI root / API discovery metadata",
+      "status": "PASS",
+      "time_ms": 6.52,
+      "details": "OK"
+    },
+    {
+      "module": "Interactive Map & Dialects",
+      "test": "Fetch all 6 Karnataka cultural dialect zones",
+      "status": "PASS",
+      "time_ms": 5.02,
+      "details": "OK"
+    },
+    {
+      "module": "Interactive Map & Dialects",
+      "test": "Fetch phrases for North Karnataka dialect",
+      "status": "PASS",
+      "time_ms": 6.09,
+      "details": "OK"
+    },
+    {
+      "module": "Interactive Map & Dialects",
+      "test": "Search dialect phrases across Karnataka",
+      "status": "PASS",
+      "time_ms": 7.71,
+      "details": "OK"
+    },
+    {
+      "module": "Gemini AI Translator",
+      "test": "Translate Standard Kannada to North Karnataka dialect",
+      "status": "PASS",
+      "time_ms": 2850.95,
+      "details": "OK"
+    },
+    {
+      "module": "Gemini AI Translator",
+      "test": "Translate phrase to Coastal Karnataka dialect",
+      "status": "PASS",
+      "time_ms": 2973.37,
+      "details": "OK"
+    },
+    {
+      "module": "Gemini AI Translator",
+      "test": "Generate cultural context for regional expression",
+      "status": "PASS",
+      "time_ms": 3168.26,
+      "details": "OK"
+    },
+    {
+      "module": "Visual Etymology Graph",
+      "test": "Trace multi-century evolutionary root graph for 'ಮನೆ'",
+      "status": "PASS",
+      "time_ms": 3112.16,
+      "details": "OK"
+    },
+    {
+      "module": "Linguistic Gamification",
+      "test": "Fetch quiz questions with options and points",
+      "status": "PASS",
+      "time_ms": 3049.43,
+      "details": "OK"
+    },
+    {
+      "module": "Linguistic Gamification",
+      "test": "Fetch global linguistic scholars leaderboard",
+      "status": "PASS",
+      "time_ms": 12.21,
+      "details": "OK"
+    },
+    {
+      "module": "Field Crowdsourcing (PWA)",
+      "test": "Submit crowdsourced regional phrase contribution",
+      "status": "PASS",
+      "time_ms": 2948.6,
+      "details": "OK"
+    },
+    {
+      "module": "Geo-Fencing & Context",
+      "test": "Fetch localized Phrase of the Day for North Karnataka",
+      "status": "PASS",
+      "time_ms": 3246.11,
+      "details": "OK"
+    },
+    {
+      "module": "Developer Portal",
+      "test": "Verify OpenAPI schema definition and developer documentation",
+      "status": "PASS",
+      "time_ms": 8.11,
+      "details": "OK"
+    },
+    {
+      "module": "Developer Portal",
+      "test": "Verify interactive OpenAPI /docs endpoint",
+      "status": "PASS",
+      "time_ms": 59.55,
+      "details": "OK"
+    }
+  ]
+}

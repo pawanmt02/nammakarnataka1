@@ -139,7 +139,7 @@ async def create_contribution(
     phrase_data = phrase.model_dump()
     phrase_data["contributor_id"] = uid
     phrase_data["contributor_name"] = name
-    phrase_data["moderation_status"] = "pending_review"
+    phrase_data["moderation_status"] = "pending"
     created = await firestore_svc.create_phrase(phrase_data, user_id=uid)
     await moderation_svc.moderate_submission(created["id"], phrase_data)
     return PhraseResponse(**created)
